@@ -1,0 +1,13 @@
+
+#input_form .short{
+    color: #e30307;
+}
+#input_form .weak{
+    color: #ffa823;
+}
+#input_form .good{
+    color:#2D98F3;
+}
+#input_form .strong{
+    color: #16a80b;
+}
