@@ -20,6 +20,8 @@ class Welcome extends MX_Controller {
 	 */
 	public function index()
 	{
+		$this->db->where('status',1);
+		$result = $this->db->get('tbl_users')->result();
 		$this->load->view('welcome_message');
 	}
 }
